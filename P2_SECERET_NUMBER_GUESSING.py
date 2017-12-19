@@ -1,9 +1,11 @@
-#Write a guessing game where the user has to guess a secret number
-#After every guess the program tells the user if their number was too large or too smal
-#At the end the number of tries needed should be printed
-#Guess of the same number count as only one guess.
+'''
+Write a guessing game where the user has to guess a secret number
+After every guess the program tells the user if their number was too large or too smal
+At the end the number of tries needed should be printed
+Guess of the same number count as only one guess
+'''
 
-#########################################################
+#
 #IMPORTING, GETTING A MYSTERY NUMBER, & INPUT
 
 import random
@@ -13,7 +15,7 @@ mystery_number = int(1000 * random.random())
 guess = int(input("Guess a number!"))
 #SPECIFY THE INPUT AS AN INTEGER OR IT WILL BE A STRING
 
-#########################################################
+#
 #COMPAIRING MYSTERY NUMBER TO USER GUESSES
 
 while mystery_number != guess:
